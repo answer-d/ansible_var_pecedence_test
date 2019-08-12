@@ -1,3 +1,7 @@
 ---
 - name: "test02 - role defaults"
   debug: var=var_test02
+
+- name: "test03 - inventory file or script group vars"
+  debug: var=var_test03_{{ item }}
+  with_items: [1, 2]
