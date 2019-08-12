@@ -1,5 +1,5 @@
 ---
-- name: "test00"
+- name: "test ansible var precedence"
   hosts: all
-  tasks:
-    - debug: msg=hello
+  roles:
+    - test_role
