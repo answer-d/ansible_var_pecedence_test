@@ -1,2 +1,3 @@
 ---
-- debug: var=var_test
+- name: "test02 - role defaults"
+  debug: var=var_test02

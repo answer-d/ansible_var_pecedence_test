@@ -1,3 +1,2 @@
 ---
-var_test:
-  test02: "This is 'role defaults'"
+var_test02: "This is 'role defaults'"
