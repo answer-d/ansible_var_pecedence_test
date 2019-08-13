@@ -5,7 +5,9 @@ localhost
 [all:vars]
 var_test03_1="This is 'inventory file or script group vars (all)'"
 var_test03_2="This is 'inventory file or script group vars (all)'"
+var_test04_1="This is 'inventory file or script group vars (all)'"
 
 # 定義しているグループで指定、もちろんallより強くなる
 [local:vars]
 var_test03_2="This is 'inventory file or script group vars (local)'"
+var_test04_2="This is 'inventory file or script group vars (all)'"

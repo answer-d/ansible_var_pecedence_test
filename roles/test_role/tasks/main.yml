@@ -5,3 +5,8 @@
 - name: "test03 - inventory file or script group vars"
   debug: var=var_test03_{{ item }}
   with_items: [1, 2]
+
+- name: "test04 - inventory group_vars/all"
+  debug: var=var_test04_{{ item }}
+  with_items: [1, 2]
+  
