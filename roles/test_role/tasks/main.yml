@@ -9,4 +9,6 @@
 - name: "test04 - inventory group_vars/all"
   debug: var=var_test04_{{ item }}
   with_items: [1, 2]
-  
+
+- name: "test05 - playbook group_vars/all"
+  debug: var=var_test05
