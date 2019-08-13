@@ -12,3 +12,9 @@
 
 - name: "test05 - playbook group_vars/all"
   debug: var=var_test05
+
+- name: "test06 - inventory group_vars/*"
+  debug: var=var_test06
+
+- name: "test07 - playbook group_vars/*"
+  debug: var=var_test07

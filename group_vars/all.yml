@@ -1,2 +1,3 @@
 ---
 var_test05: "This is 'playbook group_vars/all'"
+var_test06: "This is 'playbook group_vars/all'"

@@ -1,0 +1,3 @@
+---
+var_test06: "This is 'inventory group_vars/*'"
+var_test07: "This is 'inventory group_vars/*'"
