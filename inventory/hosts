@@ -1,5 +1,5 @@
 [local]
-localhost
+localhost var_test08="This is 'inventory file or script host vars'"
 
 # allは「全てのグループ」を意味するビルトインのグループと思えば良い
 [all:vars]

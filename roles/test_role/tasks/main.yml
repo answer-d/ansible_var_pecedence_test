@@ -18,3 +18,6 @@
 
 - name: "test07 - playbook group_vars/*"
   debug: var=var_test07
+
+- name: "test08 - inventory file or script host vars"
+  debug: var=var_test08
