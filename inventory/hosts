@@ -1,5 +1,5 @@
 [local]
-localhost var_test08="This is 'inventory file or script host vars'"
+localhost var_test08="This is 'inventory file or script host vars'" var_test09="This is 'inventory host_vars/*'"
 
 # allは「全てのグループ」を意味するビルトインのグループと思えば良い
 [all:vars]

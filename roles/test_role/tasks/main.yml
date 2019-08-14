@@ -21,3 +21,9 @@
 
 - name: "test08 - inventory file or script host vars"
   debug: var=var_test08
+
+- name: "test09 - inventory host_vars/*"
+  debug: var=var_test09
+
+- name: "test10 - inventory host_vars/*"
+  debug: var=var_test10
