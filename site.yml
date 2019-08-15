@@ -3,5 +3,10 @@
   hosts: all
   vars:
     - var_test12: "This is 'play vars'"
+    - var_test13: "This is 'play vars'"
+  vars_prompt:
+    - name: var_test13
+      prompt: "input var_test13"
+      private: no
   roles:
     - test_role
