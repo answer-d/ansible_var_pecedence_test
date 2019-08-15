@@ -27,3 +27,6 @@
 
 - name: "test10 - inventory host_vars/*"
   debug: var=var_test10
+
+- name: "test12 - play vars"
+  debug: var=var_test12

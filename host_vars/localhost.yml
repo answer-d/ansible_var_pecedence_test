@@ -1,2 +1,3 @@
 ---
 var_test10: "This is 'playbook host_vars/*''"
+var_test12: "This is 'playbook host_vars/*''"

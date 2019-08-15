@@ -1,5 +1,7 @@
 ---
 - name: "test ansible var precedence"
   hosts: all
+  vars:
+    - var_test12: "This is 'play vars'"
   roles:
     - test_role
