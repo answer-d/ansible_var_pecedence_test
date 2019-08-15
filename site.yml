@@ -8,5 +8,10 @@
     - name: var_test13
       prompt: "input var_test13"
       private: no
+    - name: var_test14
+      prompt: "input var_test14"
+      private: no
+  vars_files:
+    - vars_files_test.yml
   roles:
     - test_role
