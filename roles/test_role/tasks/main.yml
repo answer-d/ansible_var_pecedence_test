@@ -36,3 +36,6 @@
 
 - name: "test14 - play vars_files"
   debug: var=var_test14
+
+- name: "test15 - play vars_files"
+  debug: var=var_test15
