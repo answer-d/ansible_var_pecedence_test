@@ -58,3 +58,10 @@
   debug: var=var_test18
   vars:
     - var_test18: "This is 'task vars'"
+
+- name: "test19 - set_facts - pre"
+  set_fact:
+    var_test19: "This is 'set_facts'"
+
+- name: "test19 - set_facts"
+  debug: var=var_test19

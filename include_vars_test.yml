@@ -1,2 +1,3 @@
 ---
 var_test18: "This is 'include_vars'"
+var_test19: "This is 'include_vars'"
