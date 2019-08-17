@@ -39,3 +39,14 @@
 
 - name: "test15 - role vars"
   debug: var=var_test15
+
+- block:
+  - name: "test16 - block vars"
+    debug: var=var_test16
+  - name: "test17 - task vars"
+    debug: var=var_test17
+    vars:
+      - var_test17: "This is 'task vars'"
+  vars:
+    - var_test16: "This is 'block vars'"
+    - var_test17: "This is 'block vars'"
