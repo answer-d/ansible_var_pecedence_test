@@ -16,3 +16,4 @@
   roles:
     - role: test_role
       var_test20: "This is 'role (and include_role) params'"
+      var_test21: "This is 'role (and include_role) params'"

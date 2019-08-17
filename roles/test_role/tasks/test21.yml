@@ -1,0 +1,3 @@
+---
+- name: "test21 - include params"
+  debug: var=var_test21
