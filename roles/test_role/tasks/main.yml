@@ -51,7 +51,7 @@
     - var_test16: "This is 'block vars'"
     - var_test17: "This is 'block vars'"
 
-- name: "test18 - include_vars - pre"
+- name: "include_vars"
   include_vars: include_vars_test.yml
 
 - name: "test18 - include_vars"
@@ -59,9 +59,13 @@
   vars:
     - var_test18: "This is 'task vars'"
 
-- name: "test19 - set_facts - pre"
+- name: "set_facts"
   set_fact:
     var_test19: "This is 'set_facts'"
+    var_test20: "This is 'set_facts'"
 
 - name: "test19 - set_facts"
   debug: var=var_test19
+
+- name: "test20 - role (and include_role) params"
+  debug: var=var_test20
