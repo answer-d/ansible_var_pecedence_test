@@ -73,6 +73,7 @@
 - name: "include test21"
   include: test21.yml
   var_test21: "This is 'include params'"
+  var_test22: "This is 'include params'"
 
 # これはエラーになる
 # - name: "include test21"

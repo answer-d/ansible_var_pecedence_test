@@ -1,3 +1,6 @@
 ---
 - name: "test21 - include params"
   debug: var=var_test21
+
+- name: "test22 - extra vars"
+  debug: var=var_test22
