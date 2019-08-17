@@ -50,3 +50,11 @@
   vars:
     - var_test16: "This is 'block vars'"
     - var_test17: "This is 'block vars'"
+
+- name: "test18 - include_vars - pre"
+  include_vars: include_vars_test.yml
+
+- name: "test18 - include_vars"
+  debug: var=var_test18
+  vars:
+    - var_test18: "This is 'task vars'"
