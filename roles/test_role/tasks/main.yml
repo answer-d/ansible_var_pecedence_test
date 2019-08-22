@@ -79,3 +79,10 @@
 # - name: "include test21"
 #   include_tasks: test21.yml
 #   var_test21: "This is 'include_tasks params'"
+
+# これならエラーなし！
+- name: "include test21 part2"
+  include_tasks: test21.yml
+  vars:
+    var_test21: "This is 'include params'"
+    var_test22: "This is 'include params'"
